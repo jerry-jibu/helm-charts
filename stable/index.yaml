@@ -3,10 +3,10 @@ entries:
   chaos-mesh:
   - apiVersion: v2
     appVersion: 2.0.4
-    created: "2022-05-30T07:43:19.807637134Z"
+    created: "2022-07-11T11:21:06.406409033Z"
     description: Chaos Mesh® is a cloud-native Chaos Engineering platform that orchestrates
       chaos on Kubernetes environments.
-    digest: 278dc3254e1c6adf25531dd438da34c11709041ff7f437e3c6e37a8d0a649c9c
+    digest: 40f5906a34ccfe5fa835660a9b155aaa44a720c7e3b89d7bf5df2fbc91e1b921
     home: https://chaos-mesh.org
     icon: https://raw.githubusercontent.com/pingcap/chaos-mesh/master/static/logo.svg
     keywords:
@@ -41,6 +41,57 @@ entries:
     urls:
     - https://charts.kubesphere.io/stable/chaos-mesh-2.0.3.tgz
     version: 2.0.3
+  crane:
+  - annotations:
+      app.kubesphere.io/category: Continuous Optimization
+    apiVersion: v2
+    appVersion: v0.5.1
+    created: "2022-07-06T01:22:56.849769663Z"
+    description: Crane (FinOps Crane) is an opensource project which manages cloud
+      resource on Kubernetes stack, it is inspired by FinOps concepts.
+    digest: 6f3cf57089a0411d7a21798f600d5b65d9ccac91e3a998f7bb1bd1b0a1820c52
+    home: https://github.com/gocrane/crane
+    icon: https://docs.gocrane.io/dev/images/crane.svg
+    keywords:
+    - kubernetes
+    - finops
+    - autoscaling
+    - hpa
+    - vpa
+    - resources
+    - qos
+    maintainers:
+    - email: brilliantroad@126.com
+      name: qmhu
+    name: crane
+    sources:
+    - https://github.com/gocrane/crane
+    type: application
+    urls:
+    - https://charts.kubesphere.io/stable/crane-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v2
+    appVersion: v0.5.0
+    created: "2022-06-24T01:29:37.813403311Z"
+    description: A Helm chart for Crane
+    digest: 0a61e2c53f868ca565bb98c17e18dade1168685ab16a2176993e37057761d448
+    home: https://github.com/gocrane/crane
+    icon: https://github.com/gocrane/crane/blob/main/docs/images/crane.png
+    keywords:
+    - kubernetes
+    - finops
+    - autoscaling
+    - hpa
+    - vpa
+    - resources
+    - qos
+    name: crane
+    sources:
+    - https://github.com/gocrane/crane
+    type: application
+    urls:
+    - https://charts.kubesphere.io/stable/crane-0.5.0.tgz
+    version: 0.5.0
   easegress:
   - apiVersion: v2
     created: "2022-02-28T02:31:31.816082078Z"
@@ -238,6 +289,27 @@ entries:
     - https://charts.kubesphere.io/stable/jh-gitlab-5.9.2.tgz
     version: 5.9.2
   juicefs:
+  - apiVersion: v2
+    appVersion: 0.15.0
+    created: "2022-06-24T01:48:39.460565918Z"
+    description: A Helm chart for JuiceFS CSI Driver
+    digest: 238db28b8ac107810769be8aab184f93ae14dc8958bdc974521ab259d1c01b7c
+    home: https://github.com/juicedata/juicefs
+    icon: https://s.juicefs.com/static/jfs/logo.svg
+    keywords:
+    - juicefs
+    - csi
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: team@juicedata.io
+      name: Juicedata Inc
+    name: juicefs
+    sources:
+    - https://github.com/juicedata/juicefs
+    type: application
+    urls:
+    - https://charts.kubesphere.io/stable/juicefs-0.11.0.tgz
+    version: 0.11.0
   - apiVersion: v2
     appVersion: 0.13.2
     created: "2022-05-07T02:25:59.636717784Z"
@@ -552,6 +624,16 @@ entries:
     version: 2.7.13
   qiming-operator:
   - apiVersion: v2
+    appVersion: 2.5.2
+    created: "2022-05-30T07:52:51.462760029Z"
+    description: ys1000 provides data protection for cloud native applications
+    digest: 5cec9cf183d3149f2254bedf2ded7f062589901f411c9b48fffc14ace3b6a2d1
+    name: qiming-operator
+    type: application
+    urls:
+    - https://charts.kubesphere.io/stable/qiming-operator-2.5.2.tgz
+    version: 2.5.2
+  - apiVersion: v2
     appVersion: 2.2.2
     created: "2022-03-08T09:17:40.157557602Z"
     description: ys1000 provides data protection and management services for cloud
@@ -562,4 +644,4 @@ entries:
     urls:
     - https://charts.kubesphere.io/stable/qiming-operator-2.2.2.tgz
     version: 2.2.2
-generated: "2022-05-30T07:43:19.790449621Z"
+generated: "2022-07-11T11:21:06.392138687Z"
